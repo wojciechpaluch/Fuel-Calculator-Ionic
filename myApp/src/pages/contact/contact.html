@@ -1,17 +1,15 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Contact
+      Information
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content>
-  <ion-list>
-    <ion-list-header>Follow us on Twitter</ion-list-header>
-    <ion-item>
-      <ion-icon name="ionic" item-start></ion-icon>
-      @ionicframework
-    </ion-item>
-  </ion-list>
+  <ion-slides auto-play="true" loop="true">
+    <ion-slide *ngFor="let image of [1,2,3]">
+      <img data-src="../assets/imgs/slide{{image}}.jpg">
+    </ion-slide>
+  </ion-slides>
 </ion-content>
