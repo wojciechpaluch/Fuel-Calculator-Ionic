@@ -5,10 +5,22 @@ page-home {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    position: relative;
   }
 
-  .button {
+  .bottom {
+    background-color: rgba(255, 20, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 15px;
+  }
 
-    margin: 30% 45%;
+  .btn {
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
   }
 }
