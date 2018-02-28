@@ -17,7 +17,7 @@
   </div>
   <ion-list>
     <ion-list-header>
-      Set Distance
+      Distance traveled
       <ion-badge item-end color="dark">{{distance}} km</ion-badge>
     </ion-list-header>
     <ion-item>
@@ -28,10 +28,10 @@
     </ion-item>
 
     <ion-item>
-      <ion-input type="number" min="0" max="150" placeholder="Engine Power (hP)"></ion-input>
+      <ion-input type="number" min="0" max="150" placeholder="Amount of fuel" [(ngModel)]="fuel"></ion-input>
     </ion-item>
   </ion-list>
-
+  <p>Average fuel consumption: {{ distance / fuel / 2 }}</p>
   <div text-center>
     <ion-img width="580" height="550" src="../assets/imgs/map.png"></ion-img>
   </div>
