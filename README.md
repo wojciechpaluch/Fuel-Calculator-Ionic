@@ -12,9 +12,6 @@ This is the Ionic demo app, showcasing a variety of Ionic Framework components a
 
 ## App Preview
 
-<img src="resources/screenshots/1.jpg" alt="Schedule">
-<img src="resources/screenshots/1.1.jpg" alt="Schedule">
-<img src="resources/screenshots/2.jpg" alt="Schedule">
-<img src="resources/screenshots/3.jpg" alt="Schedule">
-<img src="resources/screenshots/4.jpg" alt="Schedule">
-<img src="resources/screenshots/5.jpg" alt="Schedule">
+<img src="resources/screenshots/1.jpg" alt="Schedule"><img src="resources/screenshots/1.1.jpg" alt="Schedule">
+<img src="resources/screenshots/2.jpg" alt="Schedule"><img src="resources/screenshots/3.jpg" alt="Schedule">
+<img src="resources/screenshots/4.jpg" alt="Schedule"><img src="resources/screenshots/5.jpg" alt="Schedule">
